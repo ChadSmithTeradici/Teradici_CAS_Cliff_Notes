@@ -48,4 +48,4 @@ Before continuing consult the requirement page for the applicable deployment:
 
 1. From the [Teradici portal](https://docs.teradici.com/find/product/cloud-access-software), select the CAS version and type of host systems OS. ) Then select the **‘Log in to download’** button.
 
-  ![image]()
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Select%20Download.png)
