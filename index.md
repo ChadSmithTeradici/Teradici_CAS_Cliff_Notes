@@ -130,7 +130,7 @@ CAS has a dynamic adaption system that will adjust session parameters automatica
  
 1.  The two setting I manually adjust is **PCoIP Ultra** and **Log Verbosity**.
 
-1. By Default, PCoIP Ultra protocol dynamic encoder isn’t enabled. (In the future it will)
+- By Default, PCoIP Ultra protocol dynamic encoder isn’t enabled. (In the future it will). **Enable** and select a **Ultra** encoding policy 
 
 **Decision criteria for PCoIP Ultra Configuration**
  -  If the workstation has a NVIDIA GPU and is Pascal generation or higher, then chances are that it has a NVENC encoder chip on the GPU (enable Auto-Offload)
