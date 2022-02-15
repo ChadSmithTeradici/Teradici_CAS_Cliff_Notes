@@ -65,4 +65,8 @@ Before continuing consult the requirement page for the applicable deployment:
  1. Once EULA is agreed you have two options a download (or) a download using a script via curl. (Download via script does include as user session token to programmatically authenticate to download page and download. Note: curl is primarly used for Linux, windows server does have curl pre-installed, windows 10)
  
      ![image](https://user-images.githubusercontent.com/92746483/154138711-49d91c55-a21a-429e-83be-29ea04c42d57.png)
+     
+ 1. Once the agent installer is downloaded, run installer under a local /AD administrator account. Administrator permission will be required for USB passthrough driver, audio driver and a PowerShell script to modify Windows Defender Firewall. Many times the installer launches and near the end receives a **PowerShell Execution Policy** error, the user at a minimum must set **AllSigned** when running outside of administrator account. 
+
+     ![image]()
  
