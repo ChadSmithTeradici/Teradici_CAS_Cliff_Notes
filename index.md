@@ -22,7 +22,7 @@ While Teradici's [official documentation](https://docs.teradici.com/find/product
 # Decide on the version of CAS agent that is needed #
 **An assumption on type of CAS agent and purchase has been made in pre-sales processes**
 
-There are two CAS agent SKUs availble depending on the requirements of the end-user. Each of these SKUs have a difference price point that is assoicated to the purchase/ registration key at time of sale. It is important that right agent is selected, there have been situations where end-users paid for Graphics Agents but downloaded Standard Agent. Our licensing server would permit this senerio but it would prevent the opposite (paying for Standard but installing Graphics) from happening.
+There are two CAS agent SKUs availble depending on the requirements of the end-user. Each of these SKUs have a difference price point that is assoicated to the purchase/ registration key at time of sale. It is important that right agent is selected, there have been situations where end-users paid for Graphics Agents but downloaded Standard Agent. Our licensing server would permit this senerio but it would NOT prevent the opposite (paying for Standard but installing Graphics) from happening.
 
 **Overview of CAS Agents:**
 
