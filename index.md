@@ -94,6 +94,10 @@ Before continuing consult the requirement page for the applicable deployment:
      
  1. The installation process should take under a minute to complete. Rarely, if there any installation errors will show up as &#x1F536; (RED) &#x1F536; text by the installer. You can scroll back to error messages can copy directly from installer. 
  
-     Also installation logs are kept in *%Appdata%/roaming/Teradici*
+     Also installation logs are kept in *%Appdata%/roaming/Teradici/*
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/InstallerProgress.png?raw=true)
+ 
+ 1. When purchasing Teradici CAS, you will receive a registration code that will have to be entered the registration code windows. All registration code follow the same format of a having a *ABCDEFGH12@AB12-C345-D67E-89FG* with @ in the middle of the code. 
+  
+     You can select the “not now” and run a registration script after installation. Generally, this is for building “golden images”. Typically, images and will be deployed and have a start-up script for registration.
