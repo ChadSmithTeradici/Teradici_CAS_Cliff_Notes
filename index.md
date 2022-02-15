@@ -26,7 +26,7 @@ There are two CAS agent SKUs availble depending on the requirements of the end-u
 
 |  CAS Version    |  Performance    |         Encoder        |       Hardware      |    Use Case    |
 | --------------- | --------------- |------------------------|---------------------|----------------|
-| CAS Graphics    |    60FPS -4K    | multi-core AX2 -NVENC  | CPU AVX2 /GPU-Nvidia|Content Creation|
+| CAS Graphics    |    60FPS -4K    | multi-core AVX2 -NVENC | CPU AVX2 /GPU-Nvidia|Content Creation|
 | CAS Standard    |    30FPS -2K    |        CPU             |       x86           |  Task Worker   |
 
 **CAS Graphics** 60FPS, 4K - NVENC and AVX2 multi-core encoding - (Must have a discrete approved NVIDIA/AMD GPU) 
