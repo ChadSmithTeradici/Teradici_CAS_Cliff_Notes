@@ -36,6 +36,13 @@ There are two CAS agent SKUs availble depending on the requirements of the end-u
 
 Both CAS Graphics and Standard isn't locked to a particular OS. CAS Graphics has the option to be installed on various flavors of Windows, Linux and MAC. CAS Standard can be installed on Windows and Linux.  Each possible deployment seneraio has a system requirement page that should be verified before an installation begins. 
 
+Before continuing consult the requirement page for the applicable deployment:
+- [Graphics Agent for Windows](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/windows/22.01/admin-guide/requirements/system-requirements/)
+- [Graphics Agent for Linux](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/22.01/admin-guide/requirements/system-requirements/)
+- [Graphics Agent for MAC](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/macos/22.01/admin-guide/requirements/system-requirements/)
+- [Standard Agent for Windows](https://www.teradici.com/web-help/pcoip_agent/standard_agent/windows/22.01/admin-guide/requirements/system-requirements/)
+- [Standard Agent for Linux](https://www.teradici.com/web-help/pcoip_agent/standard_agent/linux/22.01/admin-guide/requirements/system-requirements/)
+
 
 ## Create an IAM Role ##
 Create an [IAM role](https://console.aws.amazon.com/iamv2/home?#/roles) to provide the proper permissions for the end-user to start and connect to defined instances.
