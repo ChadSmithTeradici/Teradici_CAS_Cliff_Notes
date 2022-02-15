@@ -94,4 +94,4 @@ Before continuing consult the requirement page for the applicable deployment:
      
  1. The installation process should take under a minute to complete. Rarely, if there any installation errors will show up as &#x1F536; (RED) &#x1F536; text by the installer. You can scroll back to error messages can copy directly from installer. Also installation logs are kept in *%Appdata%/roaming/Teradici*
 
-     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/InstallProgress.png)
+     ![image]()
