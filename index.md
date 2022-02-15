@@ -89,4 +89,5 @@ Before continuing consult the requirement page for the applicable deployment:
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/CAS_EULA.png)
      
  1. Choose an Installation path, Next to continue.
+ 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/InstallPath.png)
