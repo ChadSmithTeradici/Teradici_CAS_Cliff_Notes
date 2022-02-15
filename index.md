@@ -13,12 +13,28 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version, highlighting recommendations, troubleshooting and observations 'in-line' as a part of this deployment process. This removes the need to open several  guides and ‘cuts the fat’ and illustrates the most common deployment scenarios seen out in the field over the past two years at Teradici.
 
 **A brief description of deployment:**
+1. Define network topology and ports for communcations between host and client systems
 1. Review of system requirement to ensure compatibility
 1. Administrator of workstation logs into Teradici portal to download CAS agent.
 1. Install CAS agent on workstation
 1. Configure CAS agent
 1. End-user logs into Teradici portal to download CAS client on their remote system
-.
+
+# Defining Network topology and ports for communications
+
+The assumption is that a remote worker outside the organization's firewall will need access to a workstation internally. In this situation, Teradici CAS requires a publicly accessible IP/FQDN and port(s) opened from the location (home/corporate) that the a workstation resides in. A fallback is an VPN connection, but VPNs have been known to hamper the performance of the PCoIP protocol as wel the PCoIP protocol encrypts all traffic between the client and host devices. For larger deployment, where multiple workers will be establishing CAS connections, Teradici does offer a connection gateway called [CAS Manager](https://www.teradici.com/web-help/cas_manager_as_a_service/?_ga=2.12859831.1699787421.1637180645-1894139970.1589168508). Its a fully featured connection broker that has a plethora of features but won't be configuring it as apart of this quick start guide. 
+
++ Both Client and Host installs of CAS will configure OS level firewall rules
++ Current home firewalls have bi-directional policy that allows originating traffic back through IP/Port combinations.
++ Most firewall confiurations leave outbound ACLs open to all traffic
++ Inbound traffic to the workstation that has the CAS agent install need to have the following ports opened.
+```
+    TCP: 443, 4172, 60443
+    UDP :4172
+```
++ Many deployment will leverage a NAT or PAT rule mapping External IPs to Workstations Internal to specified port(s)
+
+
 # Decide on the version of CAS agent that is needed #
 **An assumption on type of CAS agent and purchase has been made in pre-sales processes**
 
