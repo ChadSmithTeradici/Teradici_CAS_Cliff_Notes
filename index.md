@@ -31,6 +31,11 @@ There are two CAS agent SKUs availble depending on the requirements of the end-u
 | CAS Graphics    |    60FPS -4K    | multi-core AVX2 -NVENC | CPU AVX2 /GPU-Nvidia|Content Creation|
 | CAS Standard    |    30FPS -2K    |        CPU             |       x86           |  Task Worker   |
 
+# Ensure the requirements are met for each OS #
+**The next step is to decide on the OS for the CAS agent**
+Both CAS Graphics and Standard isn't locked to a particular OS. CAS Graphics has the option to be installed on various flavors of Windows, Linux and MAC. CAS Standard can be installed on Windows and Linux.  Each possible deployment seneraio has a system requirement page that should be verified before an installation begins. 
+
+
 ## Create an IAM Role ##
 Create an [IAM role](https://console.aws.amazon.com/iamv2/home?#/roles) to provide the proper permissions for the end-user to start and connect to defined instances.
 
