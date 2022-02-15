@@ -68,5 +68,5 @@ Before continuing consult the requirement page for the applicable deployment:
      
  1. Once the agent installer is downloaded, run installer under a local /AD administrator account. Administrator permission will be required for USB passthrough driver, audio driver and a PowerShell script to modify Windows Defender Firewall. Many times the installer launches and near the end receives a **PowerShell Execution Policy** error, the user at a minimum must set **AllSigned** when running outside of administrator account. 
 
-     ![image]()
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RUNASADMIN.png?raw=true)
  
