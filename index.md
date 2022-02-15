@@ -32,8 +32,9 @@ The assumption is that a remote worker outside a firewall will need access to a 
     TCP: 443, 4172, 60443
     UDP :4172
 ```
-+ Many deployment will leverage a NAT or PAT rule mapping External IPs to Workstations Internal to specified port(s)
++ Many deployment will leverage a NAT or PAT rule mapping External IPs to Workstations Internal to specified port(s) as well
 
+    ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Omniverse_deployment_guide/blob/main/images/Firewall%20rules.jpg)
 
 # Decide on the version of CAS agent that is needed #
 **An assumption on type of CAS agent and purchase has been made in pre-sales processes**
