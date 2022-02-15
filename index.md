@@ -10,7 +10,7 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 <p style="background-color:#CAFACA;"><i>Contributed by Teradici employees.</i></p>
 
-While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version, highlighting recommendations, troubleshooting and observations 'in-line' as a part of this deployment process. This removes the need to open several  guides and ‘cuts the fat’ and illustrates the most common deployment scenarios seen out in the field over the my past two years at Teradici.
+While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version, highlighting recommendations, troubleshooting and observations 'in-line' as a part of this deployment process. This removes the need to open several  guides and ‘cuts the fat’ and illustrates the most common deployment scenarios seen out in the field over the past two years at Teradici.
 
 **A brief description of deployment:**
 1. Review of system requirement to ensure compatibility
@@ -91,3 +91,5 @@ Before continuing consult the requirement page for the applicable deployment:
  1. Choose an Installation path, Next to continue.
  
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/InstallPath.png)
+     
+ 1. The installation process should take under a minute to complete. Rarely, if there any installation errors will show up as &#x1F536; RED &#x1F536 text by the installer.
