@@ -92,4 +92,4 @@ Before continuing consult the requirement page for the applicable deployment:
  
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/InstallPath.png)
      
- 1. The installation process should take under a minute to complete. Rarely, if there any installation errors will show up as &#x1F536; RED &#x1F536 text by the installer.
+ 1. The installation process should take under a minute to complete. Rarely, if there any installation errors will show up as &#x1F536; RED &#x1F536; text by the installer.
