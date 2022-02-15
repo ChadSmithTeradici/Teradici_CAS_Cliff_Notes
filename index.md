@@ -105,6 +105,11 @@ Before continuing consult the requirement page for the applicable deployment:
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LicensingStep.png)
 
 1. &#x1F536; (Optional) &#x1F536; The license registration step in CAS installer assumes that the workstation has outbound internet access to registration the workstation to our cloud Licensing Server. If a customer is working in a dark site, a [local licensing server](https://www.teradici.com/web-help/pcoip_license_server/22.01/offline/?_ga=2.209723026.607431230.1644860675-1630610697.1641343076) has to be deployed in their enviroment.
+
+     There is a field to enter a proxy server for Internet Connections with port, if needed. When the **Next** button is pressed. The CAS agent will try and register itself to the cloud licensing server. It may take a couple of minutes for the registration  to complete.
+     
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Final_reg.png)
+
  
 1. It’s a good idea to reboot the workstation before starting a CAS session, the Teradici virtual audio and the USB virtual driver will not be available until the system is rebooted.
 
@@ -113,3 +118,4 @@ Before continuing consult the requirement page for the applicable deployment:
 # Post installation configuration for Windows Graphics Agent # 
 CAS has a dynamic adaption system that will adjust session parameters automatically as network congestion arises. By default, there are few “knobs” we  have to adjust, I do set two parameters  after installation on Graphics Agents for Windows. I do recommend the same settings on Graphics of Linux as well, but it is done in a [configuration file](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/22.01/admin-guide/configuring/configuring/) instead. 
 
+1. 
