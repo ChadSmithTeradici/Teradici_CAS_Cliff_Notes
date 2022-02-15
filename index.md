@@ -26,6 +26,7 @@ There are two CAS agent SKUs availble depending on the requirements of the end-u
 
 ---
 | CAS Version | Performance | Encoder | Hardware | Purpose |
+
 |   :-:       |     :-:     |-   :-:  |  :-:     | :-:     |
 ---
 
