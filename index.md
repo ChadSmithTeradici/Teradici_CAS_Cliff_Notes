@@ -61,3 +61,7 @@ Before continuing consult the requirement page for the applicable deployment:
  1. Next Scroll through the EULA until the “Agree button ”  isn't greyed button is available to “click on”
 
       ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/EULA_Agree.png?raw=true)     
+ 
+ 1. Once EULA is agreed you have two options a download (or) a download using a script via curl. (Download via script does include as user session token to programmatically authenticate to download page and download. Note: curl is primarly used for Linux, windows server does have curl pre-installed, windows 10)
+ 
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/EULA_Agree.png?raw=true)  
