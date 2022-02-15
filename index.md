@@ -53,9 +53,11 @@ Before continuing consult the requirement page for the applicable deployment:
 1. You must have a registered Teradici account in order to download the software, You can “Create an account”, if you don’t have an account. This account isn’t tied to a purchase or sale. HP or personal email address are allowed.  Note: Teradici Sales and Support employees are tied our old **@teradici.com** email addresses (not) **@HP.com**
 
       ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LogintoPortal.png)
-      
- 1. Once logged into portal the “Downloads and scripts” option become available. 
 
  1. &#x1F536;**(Optional)** &#x1F536; the Teradici portal will default to the latest GA build. By selecting the drop-down menu, you have access to the previous quarters build, as well has the next to upcoming beta and development builds as well. 
 
       ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Access2OptionalBuilds.png?raw=true)
+      
+ 1. Next Scroll through the EULA until the “Agree button ”  isn't greyed button is available to “click on”
+
+      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/EULA_Agree.png?raw=true)     
