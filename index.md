@@ -110,4 +110,6 @@ Before continuing consult the requirement page for the applicable deployment:
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RebootNow.png)
 
-# Post installation configurations for Windows Graphics Agent #
+# Post installation configuration for Windows Graphics Agent # 
+CAS has a dynamic adaption system that will adjust session parameters automatically as network congestion arises. By default there are few “knobs” we adjust, I do adjust two setting after installation completes.
+
