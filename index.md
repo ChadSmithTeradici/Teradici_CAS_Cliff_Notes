@@ -12,14 +12,17 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version, highlighting recommendations, troubleshooting and observations 'in-line' as a part of this deployment process. This removes the need to open several  guides and ‘cuts the fat’ and illustrates the most common deployment scenarios seen out in the field over the past two years at Teradici.
 
-**A brief description of deploymnet:**
-1. A quick review of system requirement to ensure compatinility
+**A brief description of deployment:**
+1. Review of system requirement to ensure compatibility
 1. Administrator of workstation logs into Teradici portal to download CAS agent.
 1. Install CAS agent on workstation
 1. Configure CAS agent
 1. End-user logs into Teradici portal to download CAS client on their remote system
 .
-# Configuring EC2 G-family idle resource shut down workflow #
+# Decide on the version of CAS agent that is needed #
+## A assumption is made that the decision on what type of CAS agent and purchase has been made ##
+There are two CAS agent SKUs availble depending on the requirements of the end-user. Each of these SKUs have a difference price point that is assoicated to the purchase/ registration key at time of sale. It is important that right agent is selected, there have been situations where end-users paid for Graphics Agents but downloaded Standard Agent. Our licensing server would permit a user to register the workstation, but it would prevent the opposite (paying for Standard but installing Graphics) from happening.
+
 ## Create an IAM Role ##
 Create an [IAM role](https://console.aws.amazon.com/iamv2/home?#/roles) to provide the proper permissions for the end-user to start and connect to defined instances.
 
