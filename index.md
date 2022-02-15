@@ -15,7 +15,7 @@ While Teradici's [official documentation](https://docs.teradici.com/find/product
 **Teradici CAS /PCoIP Cliff notes.**
 
 **A brief description of deploymnet:**
-1. Administrator of workstation logs into [Teradici Cloud Access Software (CAS) portal](https://docs.teradici.com/find/product/cloud-access-software/2022.01?subscriptionName=) to download CAS agent.
+1. Administrator of workstation logs into [Teradici Cloud Access Software (CAS)](https://docs.teradici.com/find/product/cloud-access-software/2022.01?subscriptionName=) portal to download CAS agent.
 1. A defined Lambda EC2 event trigger assoicaed to a Lamdba function (λ) will execute.
 1. If the Instance type is in the G instance family, it will create a CloudWatch event assoicated to the EC2 instances-id.
 1. CloudWatch will continue to ‘watch’ the instance and poll the instances CPU utilization every 10 minutes 
