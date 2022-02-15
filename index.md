@@ -12,16 +12,13 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version, highlighting recommendations, troubleshooting and observations 'in-line' as a part of this deployment process. This removes the need to open several  guides and ‘cuts the fat’ and illustrates the most common deployment scenarios seen out in the field over the past two years at Teradici.
 
-**Teradici CAS /PCoIP Cliff notes.**
-
 **A brief description of deploymnet:**
-1. Administrator of workstation logs into [Teradici Cloud Access Software (CAS)](https://docs.teradici.com/find/product/cloud-access-software/2022.01?subscriptionName=) portal to download CAS agent.
-1. A defined Lambda EC2 event trigger assoicaed to a Lamdba function (λ) will execute.
-1. If the Instance type is in the G instance family, it will create a CloudWatch event assoicated to the EC2 instances-id.
-1. CloudWatch will continue to ‘watch’ the instance and poll the instances CPU utilization every 10 minutes 
-1. If the CloudWatch detect  < 7% utilization three time in 30 minutes peroid, it will shut down the instance.
-1. If one or more of those periods are > 7% it will continue to poll every 15 minutes interval. 
-
+1. A quick review of system requirement to ensure compatinility
+1. Administrator of workstation logs into Teradici portal to download CAS agent.
+1. Install CAS agent on workstation
+1. Configure CAS agent
+1. End-user logs into Teradici portal to download CAS client on their remote system
+.
 # Configuring EC2 G-family idle resource shut down workflow #
 ## Create an IAM Role ##
 Create an [IAM role](https://console.aws.amazon.com/iamv2/home?#/roles) to provide the proper permissions for the end-user to start and connect to defined instances.
