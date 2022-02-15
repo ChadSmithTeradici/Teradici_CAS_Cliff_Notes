@@ -133,9 +133,9 @@ CAS has a dynamic adaption system that will adjust session parameters automatica
 - By Default, PCoIP Ultra protocol dynamic encoder isn’t enabled. (In the future it will). **Enable** and select a **Ultra** encoding policy 
 
      **Decision criteria for PCoIP Ultra Configuration**
-      -  If the workstation has a NVIDIA GPU and is Pascal generation or higher, then chances are that it has a NVENC encoder chip on the GPU (enable Auto-Offload)
+     -  If the workstation has a NVIDIA GPU and is Pascal generation or higher, then chances are that it has a NVENC encoder chip on the GPU (enable Auto-Offload)
      -  If the workstation has an AMD GPU --No NVENC-- (enable CPU Offload)
- -  The best experience is to turn on “Automatic Offload” for the typical content creator and leave PCoIP Ultra Offload MPPs at 10K (default)
+     -  The best experience is to turn on “Automatic Offload” for the typical content creator and leave PCoIP Ultra Offload MPPs at 10K (default)
  
       ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/PCoIPUltraSettings.png)
      
