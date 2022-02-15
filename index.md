@@ -139,6 +139,7 @@ CAS has a dynamic adaption system that will adjust session parameters automatica
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/PCoIPUltraSettings.png)
      
-
+- Depending the Teradici Engineer you speak too, you will get varied recommendations on what logging level to set. My philosophy is that I don’t want to ask the customer to try and reproduce an error and re-generate a support bundle just because verbose logging wasn’t originally set. I set event log verbosity to **3** 
      
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LoggingLevel.png)    
  
