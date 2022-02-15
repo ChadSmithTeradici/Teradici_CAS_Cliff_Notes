@@ -48,7 +48,7 @@ Before continuing consult the requirement page for the applicable deployment:
 
 1. From the [Teradici portal](https://docs.teradici.com/find/product/cloud-access-software), select the CAS version and type of host systems OS. ) Then select the **‘Log in to download’** button.
 
-     [<![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Select%20Download.png) width="200" />]
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Select%20Download.png)
      
 1. You must have a registered Teradici account in order to download the software, You can “Create an account”, if you don’t have an account. This account isn’t tied to a purchase or sale. HP or personal email address are allowed.  Note: Teradici Sales and Support employees are tied our old **@teradici.com** email addresses (not) **@HP.com**
 
@@ -79,3 +79,8 @@ Before continuing consult the requirement page for the applicable deployment:
      - **If you don't have a supported GPU, thus wrong driver as well** - You can still select "No", but will get a "installation aborted", in essence as selecting "Yes"
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Unsupported%20Graphics.png?raw=true)
+ 
+ 1. If you have a supported GPU and driver, you will go straight to the installation wizard screen.
+     
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Unsupported%20Graphics.png?raw=true)
+     
