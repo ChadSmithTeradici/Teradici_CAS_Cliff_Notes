@@ -20,7 +20,7 @@ While Teradici's [official documentation](https://docs.teradici.com/find/product
 1. End-user logs into Teradici portal to download CAS client on their remote system
 .
 # Decide on the version of CAS agent that is needed #
-## A assumption is made that the decision on what type of CAS agent and purchase has been made ##
+## A assumption on what type of CAS agent and purchase has been made ##
 There are two CAS agent SKUs availble depending on the requirements of the end-user. Each of these SKUs have a difference price point that is assoicated to the purchase/ registration key at time of sale. It is important that right agent is selected, there have been situations where end-users paid for Graphics Agents but downloaded Standard Agent. Our licensing server would permit a user to register the workstation, but it would prevent the opposite (paying for Standard but installing Graphics) from happening.
 
 ## Create an IAM Role ##
