@@ -118,6 +118,13 @@ Before continuing consult the requirement page for the applicable deployment:
 # Post installation configuration for Windows Graphics Agent # 
 CAS has a dynamic adaption system that will adjust session parameters automatically as network congestion arises. By default, there are few “knobs” we  have to adjust, I do set two parameters  after installation on Graphics Agents for Windows. I do recommend the same settings on Graphics of Linux as well, but it is done in a [configuration file](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/22.01/admin-guide/configuring/configuring/) instead. 
 
-1. Start by typing gpedit.msc in run command
+1. Start by typing **gpedit.msc** in run command to open
      
       ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/gpedit.png)
+      
+1. Navigate to **Computer Configuration > Administrative Templates > PCoIP Session Variables**. Without knowing the specifics of the end-users requirements, I will only set two variables and let the dynamic nature of the PCoIP protocol do the rest of the adjustments on the fly. 
+
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/GPO_Navigate.png)
+ 
+1.  The two setting I manually adjust is PCoIP Ultra and Log Verbosity.
+ 
