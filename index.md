@@ -100,4 +100,6 @@ Before continuing consult the requirement page for the applicable deployment:
  
  1. When purchasing Teradici CAS, you will receive a registration code that will have to be entered in the registration code window. All registration code follow the same format of a having a *ABCDEFGH12@AB12-C345-D67E-89FG* with @ in the middle of the code. (A registation code is tied to a pool of floating seats)
   
-     You can select the “not now” and run a registration script after installation. Generally, this is for building “golden images”. Typically, images and will be deployed and have a start-up script for registration. For more information see [PowerShell Licensing Script](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/windows/22.01/admin-guide/licensing/licensing/)
+     You can select the “not now” and run a registration script after installation. Generally, this is for building “golden images”. Typically, images and will be deployed and have a start-up script for registration. For more information see; [PowerShell Licensing Script](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/windows/22.01/admin-guide/licensing/licensing/)
+
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LicensingStep?raw=true)
