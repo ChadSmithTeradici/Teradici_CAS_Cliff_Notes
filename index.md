@@ -82,8 +82,11 @@ Before continuing consult the requirement page for the applicable deployment:
  
  1. If you have a supported GPU and driver, you will go straight to the installation wizard screen.
      
- ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/WelcomeScreen.png)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/WelcomeScreen.png)
      
-1. There is a CAS Agent EULA section, that can just be "clicked" **I Agree** to continue.
+ 1. There is a CAS Agent EULA section, that can just be "clicked" **I Agree** to continue.
 
- ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/CAS_EULA.png)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/CAS_EULA.png)
+     
+ 1. Choose an Installation path, Next to continue.
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/InstallPath.png)
