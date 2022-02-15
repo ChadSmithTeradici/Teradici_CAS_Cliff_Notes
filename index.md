@@ -100,6 +100,9 @@ Before continuing consult the requirement page for the applicable deployment:
  
  1. When purchasing Teradici CAS, you will receive a registration code that will have to be entered in the registration code window. All registration code follow the same format of a having a *ABCDEFGH12@AB12-C345-D67E-89FG* with @ in the middle of the code. (A registation code is tied to a pool of floating seats)
   
-     You can select the “not now” and run a registration script after installation. Generally, this is for building “golden images”. Typically, images and will be deployed and have a start-up script for registration. For more information see; [PowerShell Licensing Script](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/windows/22.01/admin-guide/licensing/licensing/)
+     You can select the “not now” and run a registration script after installation. Generally, this is for building “golden images”. Typically, images and will be deployed and have a start-up script for registration. For more information see; [PowerShell Licensing Script](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/windows/22.01/admin-guide/licensing/licensing/). The licensing portion of the installation will take, machine name, CPU ID, MAC and other machine metadata IDs) to create a series of secure files on the local drive. Everytime, PCoIP service is started it checks if these file match with workstation. If is why you can't clone a registered workstation. 
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LicensingStep.png)
+
+1. &#x1F536; (Optional) &#x1F536; The license registration step in CAS installer assumes that the workstation has outbound internet access to registration the workstation to our cloud Licensing Server. If a customer is working in a dark site, a [local licensing server](https://www.teradici.com/web-help/pcoip_license_server/22.01/offline/?_ga=2.209723026.607431230.1644860675-1630610697.1641343076) has to be deployed in their enviroment.
+ 
