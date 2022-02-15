@@ -78,4 +78,4 @@ Before continuing consult the requirement page for the applicable deployment:
      - **If you have a supported GPU, but not the correct driver** - You have the option to select "Yes" to continue the CAS installation and fix afterwards.
      - **If you don't have a supported GPU, thus wrong driver as well** - You can still select "Yes", but will get a "installation aborted", in essence as selecting "No"
 
-     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Selectlanguage.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Unsupported%20Graphics.png?raw=true)
