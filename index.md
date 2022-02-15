@@ -24,10 +24,10 @@ While Teradici's [official documentation](https://docs.teradici.com/find/product
 
 There are two CAS agent SKUs availble depending on the requirements of the end-user. Each of these SKUs have a difference price point that is assoicated to the purchase/ registration key at time of sale. It is important that right agent is selected, there have been situations where end-users paid for Graphics Agents but downloaded Standard Agent. Our licensing server would permit this senerio but it would prevent the opposite (paying for Standard but installing Graphics) from happening.
 
-| CAS Version   | Performance   |  Encoder  | Hardware | Use Case |
-| ------------- | ------------- |-----------|----------|----------|
-| Content Cell  | Content Cell  | faafafa
-| Content Cell  | Content Cell  |
+|  CAS Version    |  Performance    |   Encoder   |       Hardware      |    Use Case    |
+| --------------- | --------------- |-------------|---------------------|----------------|
+| CAS Graphics    |    60FPS -4K    | AX2 -NVENC  | CPU AVX2 /GPU-Nvidia|Content Creation|
+| CAS Standard    |    30FPS -2K    |     CPU     |       x86           |  Task Worker   |
 
 **CAS Graphics** 60FPS, 4K - NVENC and AVX2 multi-core encoding - (Must have a discrete approved NVIDIA/AMD GPU) 
 **CAS Standard** 30FPS, 2K - CPU enhanced encoding 
