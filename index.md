@@ -125,6 +125,20 @@ CAS has a dynamic adaption system that will adjust session parameters automatica
 1. Navigate to **Computer Configuration > Administrative Templates > PCoIP Session Variables**. Without knowing the specifics of the end-users requirements, I will only set two variables and let the dynamic nature of the PCoIP protocol do the rest of the adjustments on the fly. 
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/GPO_Navigate.png)
+     
+1. On the Left-hand side, you can choose either Overridable (or) Non-Overridable, on a basic configuration. The difference being that an AD GPO could override a overridable locally configured GPO.
  
-1.  The two setting I manually adjust is PCoIP Ultra and Log Verbosity.
+1.  The two setting I manually adjust is **PCoIP Ultra** and **Log Verbosity**.
+
+1. By Default, PCoIP Ultra protocol dynamic encoder isn’t enabled. (In the future it will)
+
+**Decision criteria for PCoIP Ultra Configuration**
+ -  If the workstation has a NVIDIA GPU and is Pascal generation or higher, then chances are that it has a NVENC encoder chip on the GPU (enable Auto-Offload)
+ -  If the workstation has an AMD GPU --No NVENC-- (enable CPU Offload)
+ -  The best experience is to turn on “Automatic Offload” for the typical content creator and leave PCoIP Ultra Offload MPPs at 10K (default)
+ 
+      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/PCoIPUltraSettings.png)
+     
+
+     
  
