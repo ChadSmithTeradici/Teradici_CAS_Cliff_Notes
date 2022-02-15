@@ -111,5 +111,5 @@ Before continuing consult the requirement page for the applicable deployment:
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RebootNow.png)
 
 # Post installation configuration for Windows Graphics Agent # 
-CAS has a dynamic adaption system that will adjust session parameters automatically as network congestion arises. By default there are few “knobs” we adjust, I do adjust two setting after installation completes.
+CAS has a dynamic adaption system that will adjust session parameters automatically as network congestion arises. By default, there are few “knobs” we  have to adjust, I do set two parameters  after installation on Graphics Agents for Windows. I do recommend the same settings on Graphics of Linux as well, but it is done in a [configuration file](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/22.01/admin-guide/configuring/configuring/) instead. 
 
