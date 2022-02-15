@@ -52,27 +52,27 @@ Before continuing consult the requirement page for the applicable deployment:
 
 1. You must have a registered Teradici account in order to download the software, You can “Create an account”, if you don’t have an account. This account isn’t tied to a purchase or sale. HP or personal email address are allowed.  Note: Teradici Sales and Support employees are tied our old **@teradici.com** email addresses (not) **@HP.com**
      
-![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LogintoPortal.png)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LogintoPortal.png)
 
  1. &#x1F536;**(Optional)** &#x1F536; the Teradici portal will default to the latest GA build. By selecting the drop-down menu, you have access to the previous quarters build, as well has the next to upcoming beta and development builds as well. 
 
- ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Access2OptionalBuilds.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Access2OptionalBuilds.png?raw=true)
       
  1. Next Scroll through the EULA until the “Agree button ”  isn't greyed button is available to “click on”
 
- ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/EULA_Agree.png?raw=true)     
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/EULA_Agree.png?raw=true)     
  
  1. Once EULA is agreed you have two options a download (or) a download using a script via curl. (Download via script does include as user session token to programmatically authenticate to download page and download. Note: curl is primarly used for Linux, windows server does have curl pre-installed, windows 10)
  
- ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/DownLoadOptions.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/DownLoadOptions.png?raw=true)
      
  1. Once the agent installer is downloaded, run installer under a local /AD administrator account. Administrator permission will be required for USB passthrough driver, audio driver and a PowerShell script to modify Windows Defender Firewall. Many times the installer launches and near the end receives a **PowerShell Execution Policy** error, the user at a minimum must set **AllSigned** when running outside of administrator account. 
 
- ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RUNASADMIN.png?raw=true)
+      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RUNASADMIN.png?raw=true)
  
 1. Select a language, English by default
 
-  ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Selectlanguage.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Selectlanguage.png?raw=true)
       
 1. &#x1F536;**(Caution)** &#x1F536; You may receive an “unsupported graphics adapter cannot be found”, many times the GPU is supported, although the driver is not.
      - **If you have a supported GPU, but not the correct driver** - You have the option to select "No" to continue the CAS installation and fix afterwards.
