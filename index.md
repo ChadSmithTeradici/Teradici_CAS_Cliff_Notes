@@ -109,3 +109,5 @@ Before continuing consult the requirement page for the applicable deployment:
 1. It’s a good idea to reboot the workstation before starting a CAS session, the Teradici virtual audio and the USB virtual driver will not be available until the system is rebooted.
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RebootNow.png)
+
+# Post installation configurations for Windows Graphics Agent #
