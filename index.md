@@ -82,5 +82,5 @@ Before continuing consult the requirement page for the applicable deployment:
  
  1. If you have a supported GPU and driver, you will go straight to the installation wizard screen.
      
-     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Unsupported%20Graphics.png?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/WelcomeScreen.png)
      
