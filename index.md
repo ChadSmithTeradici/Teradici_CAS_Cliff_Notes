@@ -54,4 +54,8 @@ Before continuing consult the requirement page for the applicable deployment:
 
       ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LogintoPortal.png)
       
- 
+ 1. Once logged into portal the “Downloads and scripts” option become available. 
+
+ 1. **(Optional)** the Teradici portal will default to the latest GA build. By selecting the drop-down menu, you have access to the previous quarters build, as well has the next to upcoming beta and development builds as well. 
+
+      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LogintoPortal.png)
