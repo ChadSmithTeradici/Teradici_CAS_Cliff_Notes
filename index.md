@@ -52,4 +52,6 @@ Before continuing consult the requirement page for the applicable deployment:
      
 1. You must have a registered Teradici account in order to download the software, You can “Create an account”, if you don’t have an account. This account isn’t tied to a purchase or sale. HP or personal email address are allowed.  Note: Teradici Sales and Support employees are tied our old **@teradici.com** email addresses (not) **@HP.com**
 
-      ![image]()
+      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LogintoPortal.png)
+      
+ 
