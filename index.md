@@ -12,12 +12,10 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version, highlighting recommendations, troubleshooting and observations 'in-line' as a part of this deployment process. This removes the need to open several  guides and ‘cuts the fat’ and illustrates the most common deployment scenarios seen out in the field over the past two years at Teradici.
 
-**Teradici CAS deployment guide.**
+**Teradici CAS /PCoIP Cliff notes.**
 
-![image](https://github.com/ChadSmithTeradici/AWS_EC2_Stop_Idle_Instance_Lambda_CloudWatch/blob/main/images/StopLongRunningInstances.jpg)
-
-**A brief description of each step in workflow:**
-1. G4dn instance type is created by end-user or programmatically created in a region where workflow is deployed (regardless of AZ, subnet)
+**A brief description of deploymnet:**
+1. Administrator of workstation logs into [Teradici Cloud Access Software (CAS) portal(https://docs.teradici.com/find/product/cloud-access-software/2022.01?subscriptionName=) to download CAS agent
 1. A defined Lambda EC2 event trigger assoicaed to a Lamdba function (λ) will execute.
 1. If the Instance type is in the G instance family, it will create a CloudWatch event assoicated to the EC2 instances-id.
 1. CloudWatch will continue to ‘watch’ the instance and poll the instances CPU utilization every 10 minutes 
