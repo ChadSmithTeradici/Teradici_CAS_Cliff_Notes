@@ -44,4 +44,8 @@ Before continuing consult the requirement page for the applicable deployment:
 - [Standard Agent for Linux](https://www.teradici.com/web-help/pcoip_agent/standard_agent/linux/22.01/admin-guide/requirements/system-requirements/)
 
 # CAS Agent Installation #
-**This deployment guide we will focus on CAS Graphics on Windows, which will be the most common use case for this group**
+**This deployment guide we will focus on CAS Graphics on Windows, which will be the most common use case for this group.**
+
+1. From the [Teradici portal](https://docs.teradici.com/find/product/cloud-access-software), select the CAS version and type of host systems OS. ) Then select the **‘Log in to download’** button.
+
+
