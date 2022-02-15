@@ -70,3 +70,6 @@ Before continuing consult the requirement page for the applicable deployment:
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RUNASADMIN.png?raw=true)
  
+1. Select a language, English by default
+
+      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/RUNASADMIN.png?raw=true)
