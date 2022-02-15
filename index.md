@@ -64,4 +64,5 @@ Before continuing consult the requirement page for the applicable deployment:
  
  1. Once EULA is agreed you have two options a download (or) a download using a script via curl. (Download via script does include as user session token to programmatically authenticate to download page and download. Note: curl is primarly used for Linux, windows server does have curl pre-installed, windows 10)
  
-     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/EULA_Agree.png?raw=true)  
+     ![image](https://user-images.githubusercontent.com/92746483/154138711-49d91c55-a21a-429e-83be-29ea04c42d57.png)
+ 
