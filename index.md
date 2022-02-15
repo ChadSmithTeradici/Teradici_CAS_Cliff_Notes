@@ -75,7 +75,7 @@ Before continuing consult the requirement page for the applicable deployment:
       ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Selectlanguage.png?raw=true)
       
 1. &#x1F536;**(Caution)** &#x1F536; You may receive an “unsupported graphics adapter cannot be found”, many times the GPU is supported, although the driver is not.
-     - **If you have a supported GPU, but not the correct driver** - You have the option to select "Yes" to continue the CAS installation and fix afterwards.
-     - **If you don't have a supported GPU, thus wrong driver as well** - You can still select "Yes", but will get a "installation aborted", in essence as selecting "No"
+     - **If you have a supported GPU, but not the correct driver** - You have the option to select "No" to continue the CAS installation and fix afterwards.
+     - **If you don't have a supported GPU, thus wrong driver as well** - You can still select "No", but will get a "installation aborted", in essence as selecting "Yes"
 
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/Unsupported%20Graphics.png?raw=true)
