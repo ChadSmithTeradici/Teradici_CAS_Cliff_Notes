@@ -102,4 +102,4 @@ Before continuing consult the requirement page for the applicable deployment:
   
      You can select the “not now” and run a registration script after installation. Generally, this is for building “golden images”. Typically, images and will be deployed and have a start-up script for registration. For more information see; [PowerShell Licensing Script](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/windows/22.01/admin-guide/licensing/licensing/)
 
-     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LicensingStep?raw=true)
+     ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LicensingStep.png)
