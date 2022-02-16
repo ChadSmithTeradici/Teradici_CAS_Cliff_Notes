@@ -160,7 +160,7 @@ CAS has a dynamic adaption system that will adjust session parameters automatica
      
      ![image](https://github.com/ChadSmithTeradici/Teradici_CAS_Cliff_Notes/blob/main/images/LoggingLevel.png)    
  
-# Installing Teradici CAS client and connect to a Host Workstation #
+# Installing Teradici CAS client and connect to a host workstation #
 In this section, you will obtain the software, install, and establish a connection to your CAS host. Depending on your network topology, use will either connect to the local IP,  Public IP (or) Fully Qualified Domain Names (FQDN) with the CAS client.
 
 1. [Download the client installer](https://docs.teradici.com/find/product/software-and-mobile-clients) based on your client OS. You don't need a login credentials to download client software and can have as many copys of various client OS as you need.
