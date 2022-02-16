@@ -179,10 +179,12 @@ In this section, you will obtain the software, install, and establish a connecti
 
     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP-Client.jpg)
     
-1. Next, you will get a Cannot verify your connection to IP warning. This error is becuase a 3rd party trusted certificate has not been install on the host. You can select the **Connect Insecurely** option. For your convenience you can remove this error message by adding the **security_mode = 0** to the **%appdata%teradici/Teradici PCoIP Client** file. The PCoIP Client login screen will show a red opened lock, when enabled.
+1. Next, you will get a Cannot verify your connection to IP warning. This error is becuase a 3rd party trusted certificate has not been install on the host. You can select the **Connect Insecurely** option. For your convenience you can remove this error message by adding the **security_mode = 0** to the **%appdata%/teradici/Teradici PCoIP Client** file. The PCoIP Client login screen will show a red opened lock, when enabled.
     
     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP-Trusted.jpg)
     
- 1. Finally, enter in the login credentials.
+ 1. Finally, enter in the login credentials. 
 
     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP-Auth.jpg)
+    
+    From a troubleshooting perspective, if you can authenticated then traffic on port 443 is working correctly. When a PCoIP session takes over it will try and send the CAS client encrypted pixels over UDP 4172. If that portion fails, then you can bet that a firewall / security group is blocking traffic.
