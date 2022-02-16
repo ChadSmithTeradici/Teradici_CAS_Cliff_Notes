@@ -10,7 +10,7 @@ Chad Smith | Technical Alliance Architect at Teradici | HP
 
 <p style="background-color:#CAFACA;"><i>Contributed by Teradici employees.</i></p>
 
-While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version, highlighting recommendations, troubleshooting and observations 'in-line' as a part of this deployment process. This removes the need to open several  guides and ‘cuts the fat’ and illustrates the most common deployment scenarios seen out in the field over the past two years at Teradici.
+While Teradici's [official documentation](https://docs.teradici.com/find/product/cloud-access-software) is the recommended for deploying CAS, this “cliff noted” guide is a condensed version which highlighting recommendations, troubleshooting and provides insight 'in-line' as a part of this step-by-step deployment process. This removes the need to open several guides and ‘cuts the fat’ while illustrating the most common deployment scenarios seen out in the field over my past two years at Teradici.
 
 **A brief description of deployment:**
 1. Define network topology and ports for communcations between host and client systems
