@@ -187,4 +187,4 @@ In this section, you will obtain the software, install, and establish a connecti
 
     ![image](https://github.com/ChadSmithTeradici/TeradiciPCoIPonMACinAWS/blob/main/images/PCoIP-Auth.jpg)
     
-    From a troubleshooting perspective, if you can authenticated then traffic on port 443 is working correctly. When a PCoIP session takes over it will try and send the CAS client encrypted pixels over UDP 4172. If that portion fails, then you can bet that a firewall / security group is blocking traffic.
+    From a troubleshooting perspective, if you can authenticated then traffic on port 443 is working correctly. When a PCoIP session takes over it will try and send the CAS client encrypted pixels over UDP 4172. If that portion fails, then you can bet that a firewall / security group is blocking traffic. Most often it will lead to a generic **[6405 Error code](https://help.teradici.com/s/article/1356)**
